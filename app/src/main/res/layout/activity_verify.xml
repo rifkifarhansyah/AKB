@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightBlue"
+    tools:context="com.apps.rifki.latihan2.verify">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen60"
+            android:layout_marginRight="@dimen/dimen60"
+            android:gravity="center"
+            android:text="@string/txt_verify1"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/dimen37" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen60"
+            android:layout_marginTop="@dimen/dimen15"
+            android:layout_marginRight="@dimen/dimen60"
+            android:gravity="center"
+            android:text="@string/txt_verify2"
+            android:textColor="@color/colorGrey300"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_verify"
+            android:text="@string/txt_verify3"
+            android:textColor="@color/colorWhite"
+            style="@style/ButtonCustom1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen72"
+            android:layout_marginLeft="@dimen/dimen40"
+            android:layout_marginRight="@dimen/dimen40"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightBlue"
+    tools:context="com.apps.rifki.latihan2.Login">
+
+    <LinearLayout
+        android:id="@+id/linearLayout10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dimen100"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="138dp"
+            android:layout_height="129dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_welcome_logo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen15"
+        android:layout_marginBottom="21dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout10">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edt_Layout_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/edt_username"
+            android:textColorHint="@color/colorWhite">
+
+            <EditText
+                android:id="@+id/edt_Username_login"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:inputType="textPersonName" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edt_layout_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/edt_password"
+            android:textColorHint="@color/colorWhite">
+
+            <EditText
+                android:id="@+id/edt_password_login"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen20"
+        android:layout_marginBottom="119dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout9">
+
+        <Button
+            android:id="@+id/btn_login"
+            style="@style/ButtonCustom1"
+            android:layout_width="340dp"
+            android:layout_height="55dp"
+            android:text="@string/btn_login" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/dimen15"
+            android:paddingBottom="@dimen/dimen15"
+            android:text="@string/txtview"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"
+            app:fontFamily="@font/rubik_medium" />
+
+        <Button
+            android:id="@+id/btn_login_fb"
+            style="@style/ButtonCustom1"
+            android:layout_width="340dp"
+            android:layout_height="55dp"
+            android:drawableStart="@drawable/ic_welcome_fb_login"
+            android:drawableLeft="@drawable/ic_welcome_fb_login"
+            android:drawablePadding="@dimen/dimen15"
+            android:gravity="center|start|left"
+            android:paddingLeft="@dimen/dimen40"
+            android:paddingRight="@dimen/dimen40"
+            android:text="@string/btn_loginFB" />
+
+        <TextView
+            android:id="@+id/txtRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/dimen20" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

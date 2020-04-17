@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Latihan 2</string>
+    <string name="edt_username">Username</string>
+    <string name="edt_password">Password</string>
+    <string name="txtview">OR</string>
+    <string name="btn_loginFB">CONNECT WITH FACEBOOK</string>
+    <string name="txtdaftar">&lt;font color="#EEEEEE">doesn"'"t have account ?&lt;/font> &lt;font color="#ffffff">&lt;b>Register&lt;/b>&lt;/font></string>
+    <string name="txt_verify1">Almost There</string>
+    <string name="txt_verify2">Thank you for registering with us. One more step, you need to check your email to activate your account.</string>
+    <string name="txt_verify3">VERIFY</string>
+    <string name="txt_verify_account">Verify your Account</string>
+    <string name="txt_verify_account1">We have send verification code to your email</string>
+    <string name="edt_verification">enter verification code here...</string>
+    <string name="btn_send">SEND</string>
+    <string name="txtResend">&lt;font color="#EEEEEE">doen"'"t get the code?&lt;/font>&lt;font color="#ffffff">&lt;b>Resend&lt;/b>&lt;/font></string>
+    <string name="ActionBarRegister">&lt;b>Register&lt;/b></string>
+    <string name="nama">Rifki Farhansyah</string>
+    <string name="blood">Blood Type: B</string>
+    <string name="edt_repassword">Retype Password</string>
+    <string name="edt_email">Email</string>
+    <string name="edt_phone">Phone Number</string>
+    <string name="edt_daftar">Daftar</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="edt_personal">Personal</string>
+    <string name="edt_organization">Organization</string>
+    <string name="edt_address">Home Address</string>
+    <string name="edt_location">Default Location</string>
+    <string name="check_agrrement">Agree with Terms and Conditions</string>
+    <string name="btn_login">Login</string>
+    <string-array name="array_blood">
+        <item><font color="#9E9E9E">Blood Type</font></item>
+        <item>A</item>
+        <item>B</item>
+        <item>O</item>
+        <item>AB</item>
+    </string-array>
+    <string-array name="array_rhesus">
+        <item><font color="#9E9E9E">Rhesus</font></item>
+    </string-array>
+    <string-array name="array_job">
+        <item><font color="#9E9E9E">Job</font></item>
+        <item>Doctor</item>
+        <item>Police</item>
+    </string-array>
+    <string name="title_activity_home">home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+</resources>
